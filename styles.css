@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    background-color: black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#clock {
+    font-size: 100px;
+    width: 600px;
+    margin: 250px auto;
+    background-color: black;
+    color: greenyellow;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid purple;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 625px) {
+    #clock {
+        font-size: 50px;
+        width: 280px;
+        display: flex;
+        justify-content: center;
+    }
+}
